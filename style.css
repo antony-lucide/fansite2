@@ -115,6 +115,11 @@ footer img{
     border-top: 1px solid black;
 }
 
+footer img:hover{
+    filter: drop-shadow(0 0 0.75rem rgba(197, 11, 48, 0.441));
+    box-shadow: rgba(46, 137, 240, 0.4) 5px 5px, rgba(10, 49, 207, 0.3) 10px 10px, rgba(46, 143, 240, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
 .annexe{
     flex-direction: row;
 }
