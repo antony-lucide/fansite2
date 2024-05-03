@@ -1,0 +1,124 @@
+*{
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+body{
+    padding: 2vw;
+    margin: 0;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* background-size: 50%; */
+    height: 8vh;
+}
+
+.List{
+    display: inline-block;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.List img{
+    width: 30vh;
+    margin-right: 10px;
+    height: auto;
+    height: 40px;
+    margin-bottom: -10px;
+}
+
+.List a:hover{
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    /* width: 30px; */
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+}
+
+.Summary{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.info{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.info p{
+    text-wrap: wrap;
+    text-orientation: upright;
+    font-size: large;
+    width: 50vh;
+}
+
+.new{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.new img{
+    width: 109vh;
+    padding: 10px;
+    border-top: 1px solid black;
+}
+
+.new a{
+    padding: 10px;
+}
+
+.activity{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.activity img{
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-radius: 20px;
+}
+
+footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+footer img{
+    height: 10vh;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-right: 120px;
+    border-top: 1px solid black;
+}
+
+.annexe{
+    flex-direction: row;
+}
+
+.coordinate{
+    flex-direction: row;
+}

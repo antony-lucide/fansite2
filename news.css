@@ -1,0 +1,121 @@
+*{
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+body{
+    padding: 2vw;
+    margin: 0;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* background-size: 50%; */
+    height: 8vh;
+}
+
+.List{
+    display: inline-block;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.List img{
+    width: 30vh;
+    margin-right: 10px;
+    height: auto;
+    height: 40px;
+    margin-bottom: -10px;
+}
+
+.List a:hover{
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    /* width: 30px; */
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ footer img{
+    height: 10vh;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-right: 120px;
+    border-top: 1px solid black;
+ }
+ 
+ .annexe{
+    flex-direction: row;
+ }
+ 
+ .coordinate{
+    flex-direction: row;
+ }
+
+ main{
+    padding: 30px;
+ }
+
+.article{
+    display: flex;
+    padding: 40px;
+    margin: 20px;
+    border-top: 1px solid black;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #205e78, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #15475c, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    scrollbar-width: 20%;
+    scroll-behavior: auto;
+}
+
+
+submit {
+    background-color: #0F2027;
+    border: 3px solid #0F2027;
+    border-radius: 30px;
+}
+submit2 a{
+    background-color: #0F2027;
+    border: 3px solid #0F2027;
+    border-radius: 30px;
+}
+submit3 a{
+    background-color: #0F2027;
+    border: 3px solid #0F2027;
+    border-radius: 30px;
+}
+
+.article a:hover{
+    filter: drop-shadow(0 0 0.75rem crimson);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+
+.article a::after{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    transition-duration: 10s;
+}
+
+.article img{
+    width: 50vh;
+}
